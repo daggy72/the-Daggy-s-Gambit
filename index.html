@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Daggy&rsquo;s Gambit — Chess Course</title>
+  <meta name="description" content="A personal interactive chess course: rules, notation, openings, tactics and strategy.">
+  <meta name="theme-color" content="#2f6b4f">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Daggy's Gambit">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app"></main>
+
+  <!-- Classic scripts, loaded in dependency order (no build step, works from file://). -->
+  <script src="js/engine.js"></script>
+  <script src="js/content-schema.js"></script>
+  <script src="content/module1.js"></script>
+  <script src="content/module2.js"></script>
+  <script src="content/module3.js"></script>
+  <script src="js/board.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
